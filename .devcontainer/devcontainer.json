@@ -1,0 +1,23 @@
+{
+    "name": "yff-pipelines",
+    "features": {
+    	"ghcr.io/devcontainers-extra/features/pipenv": "latest",
+        "ghcr.io/iterative/features/dvc": "latest"
+    },
+    "postStartCommand": "pipenv install -q",
+    "mounts": [
+        "type=bind,source=${localEnv:HOME}/.ssh,target=/home/vscode/.ssh,readonly"
+    ],
+    "image": "mcr.microsoft.com/devcontainers/python:3.10-bullseye",
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "redhat.vscode-yaml",
+                "ms-python.autopep8",
+                "ms-python.python",
+                "ms-toolsai.jupyter"
+            ]
+        }
+    },
+    "remoteUser": "vscode"
+}
