@@ -5,7 +5,7 @@ import requests
 if __name__ == '__main__':
     GITHUB_TOKEN = os.environ.get('GITHUB_TOKEN')
     r = requests.post(
-        'https://api.github.com/repos/open-innovations/yff-data/dispatches',
+        'https://api.github.com/repos/infogr8/yff-data/dispatches',
         headers={
             "Accept": "application/vnd.github+json",
             "Authorization": f"Bearer {GITHUB_TOKEN}",
