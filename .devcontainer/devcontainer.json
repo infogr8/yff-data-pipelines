@@ -13,6 +13,7 @@
         "vscode": {
             "extensions": [
                 "redhat.vscode-yaml",
+                "Iterative.dvc",
                 "ms-python.autopep8",
                 "ms-python.python",
                 "ms-toolsai.jupyter"
