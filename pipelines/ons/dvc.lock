@@ -3,7 +3,7 @@ stages:
   process@unem:
     cmd: papermill process.ipynb ../../output/ons-process-unem.ipynb -p dataset unem
       -p url 
-      https://www.ons.gov.uk/file?uri=/employmentandlabourmarket/peoplenotinwork/unemployment/datasets/claimantcountandvacanciesdataset/current/unem.csv
+      "https://www.ons.gov.uk/file?uri=/employmentandlabourmarket/peoplenotinwork/unemployment/datasets/claimantcountandvacanciesdataset/current/unem.csv"
     deps:
     - path: ../../data/raw/unem.csv
       hash: md5
@@ -25,7 +25,7 @@ stages:
   process@mm23:
     cmd: papermill process.ipynb ../../output/ons-process-mm23.ipynb -p dataset mm23
       -p url 
-      https://www.ons.gov.uk/file?uri=/economy/inflationandpriceindices/datasets/consumerpriceindices/current/mm23.csv
+      "https://www.ons.gov.uk/file?uri=/economy/inflationandpriceindices/datasets/consumerpriceindices/current/mm23.csv"
     deps:
     - path: ../../data/raw/mm23.csv
       hash: md5
@@ -47,7 +47,7 @@ stages:
   process@lms:
     cmd: papermill process.ipynb ../../output/ons-process-lms.ipynb -p dataset lms
       -p url 
-      https://www.ons.gov.uk/file?uri=/employmentandlabourmarket/peopleinwork/employmentandemployeetypes/datasets/labourmarketstatistics/current/lms.csv
+      "https://www.ons.gov.uk/file?uri=/employmentandlabourmarket/peopleinwork/employmentandemployeetypes/datasets/labourmarketstatistics/current/lms.csv"
     deps:
     - path: ../../data/raw/lms.csv
       hash: md5
@@ -68,7 +68,7 @@ stages:
       size: 19050293
   download@mm23:
     cmd: PYTHONPATH=../.. python download.py mm23 
-      https://www.ons.gov.uk/file?uri=/economy/inflationandpriceindices/datasets/consumerpriceindices/current/mm23.csv
+      "https://www.ons.gov.uk/file?uri=/economy/inflationandpriceindices/datasets/consumerpriceindices/current/mm23.csv"
     deps:
     - path: download.py
       hash: md5
@@ -81,7 +81,7 @@ stages:
       size: 10677048
   download@unem:
     cmd: PYTHONPATH=../.. python download.py unem 
-      https://www.ons.gov.uk/file?uri=/employmentandlabourmarket/peoplenotinwork/unemployment/datasets/claimantcountandvacanciesdataset/current/unem.csv
+      "https://www.ons.gov.uk/file?uri=/employmentandlabourmarket/peoplenotinwork/unemployment/datasets/claimantcountandvacanciesdataset/current/unem.csv"
     deps:
     - path: download.py
       hash: md5
@@ -94,7 +94,7 @@ stages:
       size: 1000959
   download@lms:
     cmd: PYTHONPATH=../.. python download.py lms 
-      https://www.ons.gov.uk/file?uri=/employmentandlabourmarket/peopleinwork/employmentandemployeetypes/datasets/labourmarketstatistics/current/lms.csv
+      "https://www.ons.gov.uk/file?uri=/employmentandlabourmarket/peopleinwork/employmentandemployeetypes/datasets/labourmarketstatistics/current/lms.csv"
     deps:
     - path: download.py
       hash: md5

@@ -10,18 +10,18 @@ stages:
     outs:
     - path: ../../data/raw/education/16-18-destination-measures.zip
       hash: md5
-      md5: 3a470595078c50ef064599153d7eb32a
+      md5: e1f8ad59d5d9b756a910364dd9fa0192
       size: 19700721
     - path: ../../data/raw/education/key-stage-4-performance.zip
       hash: md5
-      md5: acf95b004236f1ce8e6a17d432c6d3de
+      md5: 2b8673b99adeb7a49f065226b15be239
       size: 60100637
   transform:
     cmd: papermill transform.ipynb ../../output/education-transform.ipynb
     deps:
     - path: ../../data/raw/education/
       hash: md5
-      md5: 6886903ee2d61cebbd4f4a9ba5fd137c.dir
+      md5: c6b53e96a78fb458a9c33fd59994c098.dir
       size: 79801358
       nfiles: 2
     - path: transform.ipynb
@@ -39,8 +39,8 @@ stages:
       size: 6009
     - path: ../../data/processed/dfe/destinations.parquet
       hash: md5
-      md5: a931dce53d821a32ed551610a87aa7a0
-      size: 164019
+      md5: ccbcc59144aa7b97c153f02ec6bb5253
+      size: 163247
     - path: ../../data/processed/dfe/ks4_char_outcomes.csv
       hash: md5
       md5: 53fe8bc1f739321cc2e292298e9c2fcb
@@ -51,8 +51,8 @@ stages:
       size: 3977
     - path: ../../data/processed/dfe/ks4_char_outcomes.parquet
       hash: md5
-      md5: deb71b122421fa457b0a9317b8d460a5
-      size: 225743
+      md5: 585cf96d7fd09b3c31bdd0745c600502
+      size: 224028
     - path: ../../data/processed/dfe/ks4_outcomes.csv
       hash: md5
       md5: 368e60e1a0b729cadf12b2b97e319721
@@ -63,5 +63,5 @@ stages:
       size: 3193
     - path: ../../data/processed/dfe/ks4_outcomes.parquet
       hash: md5
-      md5: eab4278747cc5028f4c907c5949b440e
-      size: 18599
+      md5: 4c2ee82b8369679f7b68194676515dc2
+      size: 17534
