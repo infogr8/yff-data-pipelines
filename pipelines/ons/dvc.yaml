@@ -4,7 +4,7 @@ stages:
   download:
     foreach: '${sources}'
     do:
-      cmd: PYTHONPATH=${TOP} python download.py ${key} ${item.url}
+      cmd: PYTHONPATH=${TOP} python download.py ${key} "${item.url}"
       always_changed: true
       deps:
         - download.py
@@ -14,7 +14,7 @@ stages:
   process:
     foreach: '${sources}'
     do:
-      cmd: papermill process.ipynb ${TOP}/output/ons-process-${key}.ipynb -p dataset ${key} -p url ${item.url}
+      cmd: papermill process.ipynb ${TOP}/output/ons-process-${key}.ipynb -p dataset ${key} -p url "${item.url}"
       deps:
         - process.ipynb
         - ${TOP}/data/raw/${key}.csv
