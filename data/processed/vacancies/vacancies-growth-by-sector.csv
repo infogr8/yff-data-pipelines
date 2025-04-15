@@ -1,19 +1,19 @@
 date,Sector,key_youth_sectors,wanted_youth_sectors,variable,value
-"December 2024 to February 2025 three-month average vacancies in the UK, quarterly percentage growth from September to November 2024, and annual percentage growth from December 2023 to February 2024",Construction,False,False,Growth since previous quarter (%),17.3
-"December 2024 to February 2025 three-month average vacancies in the UK, quarterly percentage growth from September to November 2024, and annual percentage growth from December 2023 to February 2024",Arts entertainment & recreation,False,True,Growth since previous quarter (%),10.5
-"December 2024 to February 2025 three-month average vacancies in the UK, quarterly percentage growth from September to November 2024, and annual percentage growth from December 2023 to February 2024",Other service activities,False,False,Growth since previous quarter (%),5.5
-"December 2024 to February 2025 three-month average vacancies in the UK, quarterly percentage growth from September to November 2024, and annual percentage growth from December 2023 to February 2024",Professional scientific & technical activities,False,True,Growth since previous quarter (%),3.7
-"December 2024 to February 2025 three-month average vacancies in the UK, quarterly percentage growth from September to November 2024, and annual percentage growth from December 2023 to February 2024",Wholesale & retail trade; repair of motor vehicles and motor cycles,False,False,Growth since previous quarter (%),1.4
-"December 2024 to February 2025 three-month average vacancies in the UK, quarterly percentage growth from September to November 2024, and annual percentage growth from December 2023 to February 2024",Transport & storage,False,False,Growth since previous quarter (%),0.8
-"December 2024 to February 2025 three-month average vacancies in the UK, quarterly percentage growth from September to November 2024, and annual percentage growth from December 2023 to February 2024",Accommodation & food service activities,True,False,Growth since previous quarter (%),-4.1
-"December 2024 to February 2025 three-month average vacancies in the UK, quarterly percentage growth from September to November 2024, and annual percentage growth from December 2023 to February 2024",Administrative & support service activities,False,False,Growth since previous quarter (%),-6.7
-"December 2024 to February 2025 three-month average vacancies in the UK, quarterly percentage growth from September to November 2024, and annual percentage growth from December 2023 to February 2024",Electricity gas steam & air conditioning supply,False,False,Growth since previous quarter (%),-14.6
-"December 2024 to February 2025 three-month average vacancies in the UK, quarterly percentage growth from September to November 2024, and annual percentage growth from December 2023 to February 2024",Construction,False,False,Growth since pre-coronavirus January to March 2020 (%),6.7
-"December 2024 to February 2025 three-month average vacancies in the UK, quarterly percentage growth from September to November 2024, and annual percentage growth from December 2023 to February 2024",Arts entertainment & recreation,False,True,Growth since pre-coronavirus January to March 2020 (%),21.9
-"December 2024 to February 2025 three-month average vacancies in the UK, quarterly percentage growth from September to November 2024, and annual percentage growth from December 2023 to February 2024",Other service activities,False,False,Growth since pre-coronavirus January to March 2020 (%),-12.6
-"December 2024 to February 2025 three-month average vacancies in the UK, quarterly percentage growth from September to November 2024, and annual percentage growth from December 2023 to February 2024",Professional scientific & technical activities,False,True,Growth since pre-coronavirus January to March 2020 (%),-6.1
-"December 2024 to February 2025 three-month average vacancies in the UK, quarterly percentage growth from September to November 2024, and annual percentage growth from December 2023 to February 2024",Wholesale & retail trade; repair of motor vehicles and motor cycles,False,False,Growth since pre-coronavirus January to March 2020 (%),-19.9
-"December 2024 to February 2025 three-month average vacancies in the UK, quarterly percentage growth from September to November 2024, and annual percentage growth from December 2023 to February 2024",Transport & storage,False,False,Growth since pre-coronavirus January to March 2020 (%),12.3
-"December 2024 to February 2025 three-month average vacancies in the UK, quarterly percentage growth from September to November 2024, and annual percentage growth from December 2023 to February 2024",Accommodation & food service activities,True,False,Growth since pre-coronavirus January to March 2020 (%),-21.2
-"December 2024 to February 2025 three-month average vacancies in the UK, quarterly percentage growth from September to November 2024, and annual percentage growth from December 2023 to February 2024",Administrative & support service activities,False,False,Growth since pre-coronavirus January to March 2020 (%),-19.6
-"December 2024 to February 2025 three-month average vacancies in the UK, quarterly percentage growth from September to November 2024, and annual percentage growth from December 2023 to February 2024",Electricity gas steam & air conditioning supply,False,False,Growth since pre-coronavirus January to March 2020 (%),-31.4
+2025-01-01,Water supply sewerage waste & remediation activities,False,False,Growth since previous quarter (%),10.2
+2025-01-01,Construction,False,False,Growth since previous quarter (%),10.0
+2025-01-01,Wholesale & retail trade; repair of motor vehicles and motor cycles,False,False,Growth since previous quarter (%),2.8
+2025-01-01,Professional scientific & technical activities,False,True,Growth since previous quarter (%),-2.4
+2025-01-01,Human health & social work activities,True,False,Growth since previous quarter (%),-3.3
+2025-01-01,Administrative & support service activities,False,False,Growth since previous quarter (%),-7.3
+2025-01-01,Manufacturing,False,False,Growth since previous quarter (%),-8.5
+2025-01-01,Transport & storage,False,False,Growth since previous quarter (%),-8.7
+2025-01-01,Other service activities,False,False,Growth since previous quarter (%),-14.4
+2025-01-01,Water supply sewerage waste & remediation activities,False,False,Growth since pre-coronavirus January to March 2020 (%),-3.0
+2025-01-01,Construction,False,False,Growth since pre-coronavirus January to March 2020 (%),3.5
+2025-01-01,Wholesale & retail trade; repair of motor vehicles and motor cycles,False,False,Growth since pre-coronavirus January to March 2020 (%),-13.4
+2025-01-01,Professional scientific & technical activities,False,True,Growth since pre-coronavirus January to March 2020 (%),-7.7
+2025-01-01,Human health & social work activities,True,False,Growth since pre-coronavirus January to March 2020 (%),-17.3
+2025-01-01,Administrative & support service activities,False,False,Growth since pre-coronavirus January to March 2020 (%),-20.6
+2025-01-01,Manufacturing,False,False,Growth since pre-coronavirus January to March 2020 (%),-19.8
+2025-01-01,Transport & storage,False,False,Growth since pre-coronavirus January to March 2020 (%),-4.8
+2025-01-01,Other service activities,False,False,Growth since pre-coronavirus January to March 2020 (%),-29.2
