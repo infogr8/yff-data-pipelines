@@ -7,8 +7,8 @@ stages:
     deps:
     - path: ../../data/raw/unem.csv
       hash: md5
-      md5: 84536e4c78c43c2ea29899e6af40079d
-      size: 1005868
+      md5: 6ddb337d8153057103a65012e3ecfcc8
+      size: 1012058
     - path: process.ipynb
       hash: md5
       md5: 7252295e9f7ec2a8bf7f27667cb9551f
@@ -16,12 +16,12 @@ stages:
     outs:
     - path: ../../data/metadata/codes/unem-codes.csv
       hash: md5
-      md5: 325b289c1703460594e24b5fb49d9c8b
+      md5: c9db3a9bd40eaae38ab45a6b4b2e09d8
       size: 33842
     - path: ../../data/processed/unem.csv
       hash: md5
-      md5: 1c624e84a6b62cb1b4fa0cdecdd52cda
-      size: 3787404
+      md5: 3f8e08cd9dbe19331d270175c3a10f2e
+      size: 3796707
   process@mm23:
     cmd: papermill process.ipynb ../../output/ons-process-mm23.ipynb -p dataset mm23
       -p url 
@@ -29,8 +29,8 @@ stages:
     deps:
     - path: ../../data/raw/mm23.csv
       hash: md5
-      md5: b8eb85054df3618d5d1a99b7acbe8f14
-      size: 10727672
+      md5: 6e0ab1431a900590d38108ece1921e8b
+      size: 10777164
     - path: process.ipynb
       hash: md5
       md5: 7252295e9f7ec2a8bf7f27667cb9551f
@@ -38,12 +38,12 @@ stages:
     outs:
     - path: ../../data/metadata/codes/mm23-codes.csv
       hash: md5
-      md5: e2f9cc327d92a0084c903551811e39f6
+      md5: 17200cfcc1927c512dcc7f29f98cd2ae
       size: 377769
     - path: ../../data/processed/mm23.csv
       hash: md5
-      md5: 2ba95e5776e3978a8b18e9526edfef6d
-      size: 26555272
+      md5: 060e531ea4b43e01daa49aae92a82610
+      size: 26721031
   process@lms:
     cmd: papermill process.ipynb ../../output/ons-process-lms.ipynb -p dataset lms
       -p url 
@@ -51,8 +51,8 @@ stages:
     deps:
     - path: ../../data/raw/lms.csv
       hash: md5
-      md5: e8bde25f1c6769927a5947de514ab783
-      size: 5842570
+      md5: e1fb21fa17174d07b709737c9128430b
+      size: 5854580
     - path: process.ipynb
       hash: md5
       md5: 7252295e9f7ec2a8bf7f27667cb9551f
@@ -60,12 +60,12 @@ stages:
     outs:
     - path: ../../data/metadata/codes/lms-codes.csv
       hash: md5
-      md5: 7966cafd7cf58925cf6e475828bf5c93
+      md5: ad0c34cc0a9c3241342e76bfaf3e9947
       size: 176965
     - path: ../../data/processed/lms.csv
       hash: md5
-      md5: bbf2facee760e469ce995d552a3aefec
-      size: 19215077
+      md5: e380b66622d8524fbea0b8cfcdeb9e08
+      size: 19247048
   download@mm23:
     cmd: PYTHONPATH=../.. python download.py mm23 
       "https://www.ons.gov.uk/file?uri=/economy/inflationandpriceindices/datasets/consumerpriceindices/current/mm23.csv"
@@ -77,8 +77,8 @@ stages:
     outs:
     - path: ../../data/raw/mm23.csv
       hash: md5
-      md5: b8eb85054df3618d5d1a99b7acbe8f14
-      size: 10727672
+      md5: 6e0ab1431a900590d38108ece1921e8b
+      size: 10777164
   download@unem:
     cmd: PYTHONPATH=../.. python download.py unem 
       "https://www.ons.gov.uk/file?uri=/employmentandlabourmarket/peoplenotinwork/unemployment/datasets/claimantcountandvacanciesdataset/current/unem.csv"
@@ -90,8 +90,8 @@ stages:
     outs:
     - path: ../../data/raw/unem.csv
       hash: md5
-      md5: 84536e4c78c43c2ea29899e6af40079d
-      size: 1005868
+      md5: 6ddb337d8153057103a65012e3ecfcc8
+      size: 1012058
   download@lms:
     cmd: PYTHONPATH=../.. python download.py lms 
       "https://www.ons.gov.uk/file?uri=/employmentandlabourmarket/peopleinwork/employmentandemployeetypes/datasets/labourmarketstatistics/current/lms.csv"
@@ -103,5 +103,5 @@ stages:
     outs:
     - path: ../../data/raw/lms.csv
       hash: md5
-      md5: e8bde25f1c6769927a5947de514ab783
-      size: 5842570
+      md5: e1fb21fa17174d07b709737c9128430b
+      size: 5854580
