@@ -27,16 +27,16 @@ stages:
     outs:
     - path: ../../data/raw/neet-factors/
       hash: md5
-      md5: 72bb63810caa3bce919978aaa9ed465e.dir
-      size: 110303578
+      md5: 630589eccc53dd2f83713e46db74ed57.dir
+      size: 110303403
       nfiles: 14
   collate:
     cmd: papermill collate.ipynb ../../output/collate-neet-factors.ipynb
     deps:
     - path: ../../data/raw/neet-factors/
       hash: md5
-      md5: 72bb63810caa3bce919978aaa9ed465e.dir
-      size: 110303578
+      md5: 630589eccc53dd2f83713e46db74ed57.dir
+      size: 110303403
       nfiles: 14
     - path: collate.ipynb
       hash: md5
